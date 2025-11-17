@@ -103,10 +103,9 @@ class InstanceManager:
         self.instances_overview = new_overview
 
     def spawn_instances(self, n, target_url=None):
-        for i in range(n):
+        for _ in range(n):
             self.spawn_instance(target_url)
-            if i < n - 1:  # Don't sleep after the last instance
-                time.sleep(self.spawn_interval_seconds)
+            time.sleep(self.spawn_interval_seconds)
 
     def get_site_class(self, target_url):
         for site_name, site_class in Instance.supported_sites.items():
