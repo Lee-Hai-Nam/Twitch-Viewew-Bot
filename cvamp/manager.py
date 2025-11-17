@@ -187,10 +187,6 @@ class InstanceManager:
 
         browser_instance.start()
 
-        if browser_instance_id in self.browser_instances:
-            del browser_instance
-            self.browser_instances.pop(browser_instance_id)
-
     def queue_command(self, instance_id: int, command: InstanceCommands) -> bool:
         if instance_id not in self.browser_instances:
             return False
