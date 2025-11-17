@@ -115,10 +115,12 @@ class InstanceManager:
         return sites.Unknown
 
     def spawn_instance(self, target_url=None):
-        if not self.browser_instances:
-            browser_instance_id = 1
-        else:
-            browser_instance_id = max(self.browser_instances.keys()) + 1
+        # Acquire lock to ensure unique ID assignment
+        with self.manager_lock:
+            if not self.browser_instances:
+                browser_instance_id = 1
+            else:
+                browser_instance_id = max(self.browser_instances.keys()) + 1
 
         t = threading.Thread(
             target=self.spawn_instance_thread,
@@ -148,10 +150,8 @@ class InstanceManager:
         if not target_url:
             target_url = self.target_url
 
-        # Add random delay between 30-60 seconds before launch
-        delay = random.randint(30, 60)
-        logger.info(f"Waiting {delay} seconds before launching instance {browser_instance_id}...")
-        time.sleep(delay)
+        # Small delay to ensure proper resource distribution during startup
+        time.sleep(1)
 
         with self.manager_lock:
             proxy = self.proxies.get_proxy_as_dict()

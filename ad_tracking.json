@@ -1,0 +1,698 @@
+{
+  "total_ads_detected": 138,
+  "instances": {
+    "1": 138
+  },
+  "detection_log": [
+    {
+      "timestamp": "2025-11-17T11:28:00.772518",
+      "instance_id": 1,
+      "ad_number_for_instance": 1
+    },
+    {
+      "timestamp": "2025-11-17T11:28:03.176981",
+      "instance_id": 1,
+      "ad_number_for_instance": 2
+    },
+    {
+      "timestamp": "2025-11-17T11:28:06.597032",
+      "instance_id": 1,
+      "ad_number_for_instance": 3
+    },
+    {
+      "timestamp": "2025-11-17T11:28:10.850270",
+      "instance_id": 1,
+      "ad_number_for_instance": 4
+    },
+    {
+      "timestamp": "2025-11-17T11:28:13.258606",
+      "instance_id": 1,
+      "ad_number_for_instance": 5
+    },
+    {
+      "timestamp": "2025-11-17T11:28:16.686213",
+      "instance_id": 1,
+      "ad_number_for_instance": 6
+    },
+    {
+      "timestamp": "2025-11-17T11:28:20.915145",
+      "instance_id": 1,
+      "ad_number_for_instance": 7
+    },
+    {
+      "timestamp": "2025-11-17T11:28:23.335934",
+      "instance_id": 1,
+      "ad_number_for_instance": 8
+    },
+    {
+      "timestamp": "2025-11-17T11:28:26.759917",
+      "instance_id": 1,
+      "ad_number_for_instance": 9
+    },
+    {
+      "timestamp": "2025-11-17T11:28:30.987241",
+      "instance_id": 1,
+      "ad_number_for_instance": 10
+    },
+    {
+      "timestamp": "2025-11-17T11:28:33.405047",
+      "instance_id": 1,
+      "ad_number_for_instance": 11
+    },
+    {
+      "timestamp": "2025-11-17T11:28:36.827091",
+      "instance_id": 1,
+      "ad_number_for_instance": 12
+    },
+    {
+      "timestamp": "2025-11-17T11:28:41.038792",
+      "instance_id": 1,
+      "ad_number_for_instance": 13
+    },
+    {
+      "timestamp": "2025-11-17T11:28:43.463340",
+      "instance_id": 1,
+      "ad_number_for_instance": 14
+    },
+    {
+      "timestamp": "2025-11-17T11:28:46.890750",
+      "instance_id": 1,
+      "ad_number_for_instance": 15
+    },
+    {
+      "timestamp": "2025-11-17T11:28:51.097063",
+      "instance_id": 1,
+      "ad_number_for_instance": 16
+    },
+    {
+      "timestamp": "2025-11-17T11:28:53.532316",
+      "instance_id": 1,
+      "ad_number_for_instance": 17
+    },
+    {
+      "timestamp": "2025-11-17T11:28:56.967853",
+      "instance_id": 1,
+      "ad_number_for_instance": 18
+    },
+    {
+      "timestamp": "2025-11-17T11:29:01.158018",
+      "instance_id": 1,
+      "ad_number_for_instance": 19
+    },
+    {
+      "timestamp": "2025-11-17T11:29:03.601995",
+      "instance_id": 1,
+      "ad_number_for_instance": 20
+    },
+    {
+      "timestamp": "2025-11-17T11:29:07.031801",
+      "instance_id": 1,
+      "ad_number_for_instance": 21
+    },
+    {
+      "timestamp": "2025-11-17T11:29:11.209229",
+      "instance_id": 1,
+      "ad_number_for_instance": 22
+    },
+    {
+      "timestamp": "2025-11-17T11:29:13.666057",
+      "instance_id": 1,
+      "ad_number_for_instance": 23
+    },
+    {
+      "timestamp": "2025-11-17T11:29:17.088613",
+      "instance_id": 1,
+      "ad_number_for_instance": 24
+    },
+    {
+      "timestamp": "2025-11-17T11:29:21.286355",
+      "instance_id": 1,
+      "ad_number_for_instance": 25
+    },
+    {
+      "timestamp": "2025-11-17T11:29:23.736258",
+      "instance_id": 1,
+      "ad_number_for_instance": 26
+    },
+    {
+      "timestamp": "2025-11-17T11:29:27.149754",
+      "instance_id": 1,
+      "ad_number_for_instance": 27
+    },
+    {
+      "timestamp": "2025-11-17T11:29:31.352582",
+      "instance_id": 1,
+      "ad_number_for_instance": 28
+    },
+    {
+      "timestamp": "2025-11-17T11:29:33.801434",
+      "instance_id": 1,
+      "ad_number_for_instance": 29
+    },
+    {
+      "timestamp": "2025-11-17T11:29:37.219462",
+      "instance_id": 1,
+      "ad_number_for_instance": 30
+    },
+    {
+      "timestamp": "2025-11-17T11:29:41.404140",
+      "instance_id": 1,
+      "ad_number_for_instance": 31
+    },
+    {
+      "timestamp": "2025-11-17T11:29:43.857696",
+      "instance_id": 1,
+      "ad_number_for_instance": 32
+    },
+    {
+      "timestamp": "2025-11-17T11:29:47.275105",
+      "instance_id": 1,
+      "ad_number_for_instance": 33
+    },
+    {
+      "timestamp": "2025-11-17T11:29:51.470104",
+      "instance_id": 1,
+      "ad_number_for_instance": 34
+    },
+    {
+      "timestamp": "2025-11-17T11:29:53.927723",
+      "instance_id": 1,
+      "ad_number_for_instance": 35
+    },
+    {
+      "timestamp": "2025-11-17T11:29:57.345220",
+      "instance_id": 1,
+      "ad_number_for_instance": 36
+    },
+    {
+      "timestamp": "2025-11-17T11:30:01.522034",
+      "instance_id": 1,
+      "ad_number_for_instance": 37
+    },
+    {
+      "timestamp": "2025-11-17T11:30:03.995983",
+      "instance_id": 1,
+      "ad_number_for_instance": 38
+    },
+    {
+      "timestamp": "2025-11-17T11:30:07.410586",
+      "instance_id": 1,
+      "ad_number_for_instance": 39
+    },
+    {
+      "timestamp": "2025-11-17T11:30:11.577917",
+      "instance_id": 1,
+      "ad_number_for_instance": 40
+    },
+    {
+      "timestamp": "2025-11-17T11:30:14.047383",
+      "instance_id": 1,
+      "ad_number_for_instance": 41
+    },
+    {
+      "timestamp": "2025-11-17T11:30:17.474334",
+      "instance_id": 1,
+      "ad_number_for_instance": 42
+    },
+    {
+      "timestamp": "2025-11-17T11:30:21.641711",
+      "instance_id": 1,
+      "ad_number_for_instance": 43
+    },
+    {
+      "timestamp": "2025-11-17T11:30:24.116501",
+      "instance_id": 1,
+      "ad_number_for_instance": 44
+    },
+    {
+      "timestamp": "2025-11-17T11:30:27.543354",
+      "instance_id": 1,
+      "ad_number_for_instance": 45
+    },
+    {
+      "timestamp": "2025-11-17T11:30:31.690312",
+      "instance_id": 1,
+      "ad_number_for_instance": 46
+    },
+    {
+      "timestamp": "2025-11-17T11:30:34.187662",
+      "instance_id": 1,
+      "ad_number_for_instance": 47
+    },
+    {
+      "timestamp": "2025-11-17T11:30:37.618678",
+      "instance_id": 1,
+      "ad_number_for_instance": 48
+    },
+    {
+      "timestamp": "2025-11-17T11:30:41.750406",
+      "instance_id": 1,
+      "ad_number_for_instance": 49
+    },
+    {
+      "timestamp": "2025-11-17T11:30:44.250125",
+      "instance_id": 1,
+      "ad_number_for_instance": 50
+    },
+    {
+      "timestamp": "2025-11-17T11:30:47.679456",
+      "instance_id": 1,
+      "ad_number_for_instance": 51
+    },
+    {
+      "timestamp": "2025-11-17T11:30:51.805106",
+      "instance_id": 1,
+      "ad_number_for_instance": 52
+    },
+    {
+      "timestamp": "2025-11-17T11:30:54.323593",
+      "instance_id": 1,
+      "ad_number_for_instance": 53
+    },
+    {
+      "timestamp": "2025-11-17T11:30:57.754471",
+      "instance_id": 1,
+      "ad_number_for_instance": 54
+    },
+    {
+      "timestamp": "2025-11-17T11:31:01.870894",
+      "instance_id": 1,
+      "ad_number_for_instance": 55
+    },
+    {
+      "timestamp": "2025-11-17T11:31:04.390965",
+      "instance_id": 1,
+      "ad_number_for_instance": 56
+    },
+    {
+      "timestamp": "2025-11-17T11:31:07.822832",
+      "instance_id": 1,
+      "ad_number_for_instance": 57
+    },
+    {
+      "timestamp": "2025-11-17T11:31:11.925355",
+      "instance_id": 1,
+      "ad_number_for_instance": 58
+    },
+    {
+      "timestamp": "2025-11-17T11:31:14.457879",
+      "instance_id": 1,
+      "ad_number_for_instance": 59
+    },
+    {
+      "timestamp": "2025-11-17T11:31:17.885546",
+      "instance_id": 1,
+      "ad_number_for_instance": 60
+    },
+    {
+      "timestamp": "2025-11-17T11:31:21.984358",
+      "instance_id": 1,
+      "ad_number_for_instance": 61
+    },
+    {
+      "timestamp": "2025-11-17T11:31:24.528568",
+      "instance_id": 1,
+      "ad_number_for_instance": 62
+    },
+    {
+      "timestamp": "2025-11-17T11:31:27.945480",
+      "instance_id": 1,
+      "ad_number_for_instance": 63
+    },
+    {
+      "timestamp": "2025-11-17T11:31:32.048920",
+      "instance_id": 1,
+      "ad_number_for_instance": 64
+    },
+    {
+      "timestamp": "2025-11-17T11:31:34.590818",
+      "instance_id": 1,
+      "ad_number_for_instance": 65
+    },
+    {
+      "timestamp": "2025-11-17T11:31:38.016780",
+      "instance_id": 1,
+      "ad_number_for_instance": 66
+    },
+    {
+      "timestamp": "2025-11-17T11:31:42.144642",
+      "instance_id": 1,
+      "ad_number_for_instance": 67
+    },
+    {
+      "timestamp": "2025-11-17T11:31:44.653849",
+      "instance_id": 1,
+      "ad_number_for_instance": 68
+    },
+    {
+      "timestamp": "2025-11-17T11:31:48.077956",
+      "instance_id": 1,
+      "ad_number_for_instance": 69
+    },
+    {
+      "timestamp": "2025-11-17T11:31:52.204622",
+      "instance_id": 1,
+      "ad_number_for_instance": 70
+    },
+    {
+      "timestamp": "2025-11-17T11:31:54.716656",
+      "instance_id": 1,
+      "ad_number_for_instance": 71
+    },
+    {
+      "timestamp": "2025-11-17T11:31:58.146842",
+      "instance_id": 1,
+      "ad_number_for_instance": 72
+    },
+    {
+      "timestamp": "2025-11-17T11:32:02.268817",
+      "instance_id": 1,
+      "ad_number_for_instance": 73
+    },
+    {
+      "timestamp": "2025-11-17T11:32:04.777176",
+      "instance_id": 1,
+      "ad_number_for_instance": 74
+    },
+    {
+      "timestamp": "2025-11-17T11:32:08.215394",
+      "instance_id": 1,
+      "ad_number_for_instance": 75
+    },
+    {
+      "timestamp": "2025-11-17T11:32:12.326697",
+      "instance_id": 1,
+      "ad_number_for_instance": 76
+    },
+    {
+      "timestamp": "2025-11-17T11:37:29.086578",
+      "instance_id": 1,
+      "ad_number_for_instance": 77
+    },
+    {
+      "timestamp": "2025-11-17T11:37:34.979915",
+      "instance_id": 1,
+      "ad_number_for_instance": 78
+    },
+    {
+      "timestamp": "2025-11-17T11:37:39.163565",
+      "instance_id": 1,
+      "ad_number_for_instance": 79
+    },
+    {
+      "timestamp": "2025-11-17T11:37:39.351696",
+      "instance_id": 1,
+      "ad_number_for_instance": 80
+    },
+    {
+      "timestamp": "2025-11-17T11:37:45.069950",
+      "instance_id": 1,
+      "ad_number_for_instance": 81
+    },
+    {
+      "timestamp": "2025-11-17T11:37:49.236153",
+      "instance_id": 1,
+      "ad_number_for_instance": 82
+    },
+    {
+      "timestamp": "2025-11-17T11:37:49.417164",
+      "instance_id": 1,
+      "ad_number_for_instance": 83
+    },
+    {
+      "timestamp": "2025-11-17T11:37:55.152583",
+      "instance_id": 1,
+      "ad_number_for_instance": 84
+    },
+    {
+      "timestamp": "2025-11-17T11:37:59.296075",
+      "instance_id": 1,
+      "ad_number_for_instance": 85
+    },
+    {
+      "timestamp": "2025-11-17T11:37:59.491925",
+      "instance_id": 1,
+      "ad_number_for_instance": 86
+    },
+    {
+      "timestamp": "2025-11-17T11:38:05.223497",
+      "instance_id": 1,
+      "ad_number_for_instance": 87
+    },
+    {
+      "timestamp": "2025-11-17T11:38:09.379099",
+      "instance_id": 1,
+      "ad_number_for_instance": 88
+    },
+    {
+      "timestamp": "2025-11-17T11:38:09.562615",
+      "instance_id": 1,
+      "ad_number_for_instance": 89
+    },
+    {
+      "timestamp": "2025-11-17T11:38:15.285646",
+      "instance_id": 1,
+      "ad_number_for_instance": 90
+    },
+    {
+      "timestamp": "2025-11-17T11:38:19.445943",
+      "instance_id": 1,
+      "ad_number_for_instance": 91
+    },
+    {
+      "timestamp": "2025-11-17T11:38:19.619972",
+      "instance_id": 1,
+      "ad_number_for_instance": 92
+    },
+    {
+      "timestamp": "2025-11-17T11:38:25.369599",
+      "instance_id": 1,
+      "ad_number_for_instance": 93
+    },
+    {
+      "timestamp": "2025-11-17T11:38:29.509722",
+      "instance_id": 1,
+      "ad_number_for_instance": 94
+    },
+    {
+      "timestamp": "2025-11-17T11:38:29.688874",
+      "instance_id": 1,
+      "ad_number_for_instance": 95
+    },
+    {
+      "timestamp": "2025-11-17T11:38:35.436869",
+      "instance_id": 1,
+      "ad_number_for_instance": 96
+    },
+    {
+      "timestamp": "2025-11-17T11:38:39.572409",
+      "instance_id": 1,
+      "ad_number_for_instance": 97
+    },
+    {
+      "timestamp": "2025-11-17T11:38:39.765800",
+      "instance_id": 1,
+      "ad_number_for_instance": 98
+    },
+    {
+      "timestamp": "2025-11-17T11:38:45.498650",
+      "instance_id": 1,
+      "ad_number_for_instance": 99
+    },
+    {
+      "timestamp": "2025-11-17T11:38:49.648454",
+      "instance_id": 1,
+      "ad_number_for_instance": 100
+    },
+    {
+      "timestamp": "2025-11-17T11:38:49.845652",
+      "instance_id": 1,
+      "ad_number_for_instance": 101
+    },
+    {
+      "timestamp": "2025-11-17T11:38:55.616742",
+      "instance_id": 1,
+      "ad_number_for_instance": 102
+    },
+    {
+      "timestamp": "2025-11-17T11:38:59.734207",
+      "instance_id": 1,
+      "ad_number_for_instance": 103
+    },
+    {
+      "timestamp": "2025-11-17T11:38:59.925268",
+      "instance_id": 1,
+      "ad_number_for_instance": 104
+    },
+    {
+      "timestamp": "2025-11-17T11:39:05.704097",
+      "instance_id": 1,
+      "ad_number_for_instance": 105
+    },
+    {
+      "timestamp": "2025-11-17T11:39:09.804580",
+      "instance_id": 1,
+      "ad_number_for_instance": 106
+    },
+    {
+      "timestamp": "2025-11-17T11:39:10.012439",
+      "instance_id": 1,
+      "ad_number_for_instance": 107
+    },
+    {
+      "timestamp": "2025-11-17T11:39:15.780563",
+      "instance_id": 1,
+      "ad_number_for_instance": 108
+    },
+    {
+      "timestamp": "2025-11-17T11:39:19.869216",
+      "instance_id": 1,
+      "ad_number_for_instance": 109
+    },
+    {
+      "timestamp": "2025-11-17T11:39:20.086371",
+      "instance_id": 1,
+      "ad_number_for_instance": 110
+    },
+    {
+      "timestamp": "2025-11-17T11:39:25.874897",
+      "instance_id": 1,
+      "ad_number_for_instance": 111
+    },
+    {
+      "timestamp": "2025-11-17T11:39:29.932086",
+      "instance_id": 1,
+      "ad_number_for_instance": 112
+    },
+    {
+      "timestamp": "2025-11-17T11:39:30.170305",
+      "instance_id": 1,
+      "ad_number_for_instance": 113
+    },
+    {
+      "timestamp": "2025-11-17T11:39:35.945163",
+      "instance_id": 1,
+      "ad_number_for_instance": 114
+    },
+    {
+      "timestamp": "2025-11-17T11:39:40.002720",
+      "instance_id": 1,
+      "ad_number_for_instance": 115
+    },
+    {
+      "timestamp": "2025-11-17T11:39:40.241076",
+      "instance_id": 1,
+      "ad_number_for_instance": 116
+    },
+    {
+      "timestamp": "2025-11-17T11:39:46.016007",
+      "instance_id": 1,
+      "ad_number_for_instance": 117
+    },
+    {
+      "timestamp": "2025-11-17T11:39:50.074016",
+      "instance_id": 1,
+      "ad_number_for_instance": 118
+    },
+    {
+      "timestamp": "2025-11-17T11:39:50.306095",
+      "instance_id": 1,
+      "ad_number_for_instance": 119
+    },
+    {
+      "timestamp": "2025-11-17T11:39:56.087553",
+      "instance_id": 1,
+      "ad_number_for_instance": 120
+    },
+    {
+      "timestamp": "2025-11-17T11:40:00.148171",
+      "instance_id": 1,
+      "ad_number_for_instance": 121
+    },
+    {
+      "timestamp": "2025-11-17T11:40:00.365477",
+      "instance_id": 1,
+      "ad_number_for_instance": 122
+    },
+    {
+      "timestamp": "2025-11-17T11:40:06.148369",
+      "instance_id": 1,
+      "ad_number_for_instance": 123
+    },
+    {
+      "timestamp": "2025-11-17T11:40:10.220040",
+      "instance_id": 1,
+      "ad_number_for_instance": 124
+    },
+    {
+      "timestamp": "2025-11-17T11:40:10.430559",
+      "instance_id": 1,
+      "ad_number_for_instance": 125
+    },
+    {
+      "timestamp": "2025-11-17T11:40:16.204471",
+      "instance_id": 1,
+      "ad_number_for_instance": 126
+    },
+    {
+      "timestamp": "2025-11-17T11:40:20.284943",
+      "instance_id": 1,
+      "ad_number_for_instance": 127
+    },
+    {
+      "timestamp": "2025-11-17T11:40:20.498651",
+      "instance_id": 1,
+      "ad_number_for_instance": 128
+    },
+    {
+      "timestamp": "2025-11-17T11:40:26.278806",
+      "instance_id": 1,
+      "ad_number_for_instance": 129
+    },
+    {
+      "timestamp": "2025-11-17T11:40:30.365967",
+      "instance_id": 1,
+      "ad_number_for_instance": 130
+    },
+    {
+      "timestamp": "2025-11-17T11:40:30.580689",
+      "instance_id": 1,
+      "ad_number_for_instance": 131
+    },
+    {
+      "timestamp": "2025-11-17T11:40:36.347581",
+      "instance_id": 1,
+      "ad_number_for_instance": 132
+    },
+    {
+      "timestamp": "2025-11-17T11:40:40.450640",
+      "instance_id": 1,
+      "ad_number_for_instance": 133
+    },
+    {
+      "timestamp": "2025-11-17T11:40:40.665843",
+      "instance_id": 1,
+      "ad_number_for_instance": 134
+    },
+    {
+      "timestamp": "2025-11-17T11:40:46.421977",
+      "instance_id": 1,
+      "ad_number_for_instance": 135
+    },
+    {
+      "timestamp": "2025-11-17T11:40:50.524936",
+      "instance_id": 1,
+      "ad_number_for_instance": 136
+    },
+    {
+      "timestamp": "2025-11-17T11:40:50.740973",
+      "instance_id": 1,
+      "ad_number_for_instance": 137
+    },
+    {
+      "timestamp": "2025-11-17T11:40:56.504582",
+      "instance_id": 1,
+      "ad_number_for_instance": 138
+    }
+  ]
+}

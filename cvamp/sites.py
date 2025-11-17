@@ -22,8 +22,6 @@ class Unknown(Instance):
         self.page.keyboard.press("Tab")
 
     def update_status(self):
-        # Check for ads (inherited from base Instance class)
-        super().check_for_ads()
         pass
 
     def todo_after_spawn(self):
@@ -48,9 +46,6 @@ class Chzzk(Instance):
             pass
 
     def update_status(self):
-        # First check for ads (inherited from base Instance class)
-        super().check_for_ads()
-        
         html = self.page.evaluate('document.querySelector("div#live_player_layout").innerHTML')
         if "pzp-pc--live" in html:
             if "pzp-pc--loading" not in html:
@@ -114,9 +109,6 @@ class Youtube(Instance):
             pass
 
     def update_status(self):
-        # First check for ads (inherited from base Instance class)
-        super().check_for_ads()
-        
         current_time = datetime.datetime.now()
 
         if not self.status_info:
@@ -193,8 +185,6 @@ class Kick(Instance):
         self.page.keyboard.press("Tab")
 
     def update_status(self):
-        # Check for ads (inherited from base Instance class)
-        super().check_for_ads()
         pass
 
     def todo_after_spawn(self):
@@ -232,9 +222,6 @@ class Twitch(Instance):
         self.page.keyboard.press("Alt+t")
 
     def update_status(self):
-        # First check for ads (inherited from base Instance class)
-        super().check_for_ads()
-        
         current_time = datetime.datetime.now()
         if not self.status_info:
             self.status_info = {

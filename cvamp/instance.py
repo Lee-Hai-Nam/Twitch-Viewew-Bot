@@ -8,8 +8,6 @@ from abc import ABC
 
 from . import utils
 from .anti_detect import get_random_user_agent, get_anti_detection_script
-from .ad_tracker import get_ad_tracker
-from .ad_detector import detect_ads_on_page
 
 logger = logging.getLogger(__name__)
 
@@ -48,11 +46,6 @@ class Instance(ABC):
 
         # Store reference to SOCKS5 proxy server if created
         self.socks5_proxy_server = None
-
-        # Ad tracking
-        self.ad_tracker = get_ad_tracker()
-        self.last_ad_check_time = None
-        self.ads_detected_count = 0
 
         self.last_restart_dt = datetime.datetime.now()
 
@@ -376,54 +369,10 @@ class Instance(ABC):
         """
         pass
 
-    def check_for_ads(self):
-        """
-        Check if ads are currently playing and update tracking if needed
-        """
-        if not self.page:
-            return False
-        
-        try:
-            # Determine platform from target URL
-            platform = "unknown"
-            if "twitch.tv" in self.target_url:
-                platform = "twitch"
-            elif "youtube.com" in self.target_url or "youtu.be" in self.target_url:
-                platform = "youtube"
-            elif "kick.com" in self.target_url:
-                platform = "kick"
-            elif "chzzk.naver.com" in self.target_url:
-                platform = "chzzk"
-            
-            # Check for ads on the current platform
-            ad_detected = detect_ads_on_page(self.page, platform)
-            
-            if ad_detected:
-                current_time = datetime.datetime.now()
-                
-                # Only record if enough time has passed since last check to avoid duplicates
-                if (not self.last_ad_check_time or 
-                    (current_time - self.last_ad_check_time).seconds > 5):
-                    
-                    self.ad_tracker.record_ad_detected(self.id)
-                    self.ads_detected_count += 1
-                    self.last_ad_check_time = current_time
-                    logger.info(f"Ad detected for instance {self.id}. Total ads for this instance: {self.ads_detected_count}")
-                
-                return True
-            return False
-        except Exception as e:
-            logger.warning(f"Error checking for ads on instance {self.id}: {e}")
-            return False
-
     def update_status(self) -> None:
         """
         Mechanism is called every loop. Figure out if it is watching and working and updated status.
-        Also check for ads and track them.
         """
-        # Check for ads first
-        self.check_for_ads()
-        
         # The rest of the logic depends on the specific site implementation
         # For the base class, we just pass - specific site classes override this
         pass
