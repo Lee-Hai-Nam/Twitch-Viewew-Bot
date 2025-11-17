@@ -10,3 +10,4 @@ main.spec
 tests
 cvamp.log
 .vscode
+.venv
